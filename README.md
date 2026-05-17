@@ -72,3 +72,44 @@ PCA + SelectKBest
         ▼
 Classification
 (SVM / KNN / Random Forest)
+
+# 📂 Dataset
+
+This project uses the **Blood Cell Images Dataset** available on Kaggle.
+
+## 🔗 Dataset Link
+
+https://www.kaggle.com/datasets/paultimothymooney/blood-cells
+
+---
+
+## 📊 Dataset Information
+
+The dataset contains approximately **12,500 microscopic blood cell images** divided into four white blood cell categories:
+
+| Class | Number of Images |
+|---|---|
+| EOSINOPHIL | ~2497 |
+| LYMPHOCYTE | ~2483 |
+| MONOCYTE | ~2478 |
+| NEUTROPHIL | ~2499 |
+
+The images are already organized into folders for training and testing.
+
+---
+
+## 📁 Dataset Structure
+
+```text
+dataset/
+└── dataset2-master/
+    └── dataset2-master/
+        └── images/
+            ├── TRAIN/
+            │   ├── EOSINOPHIL/
+            │   ├── LYMPHOCYTE/
+            │   ├── MONOCYTE/
+            │   └── NEUTROPHIL/
+            │
+            ├── TEST/
+            └── TEST_SIMPLE/
